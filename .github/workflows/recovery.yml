@@ -14,10 +14,10 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://gitlab.com/OrangeFox/Manifest.git
-  DEVICE: rosy
-  DT_LINK: https://github.com/ElytrA8/recovery_rosy
-  DT_PATH: device/xiaomi/rosy
+  MANIFEST: git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-8.1
+  DEVICE: e8
+  DT_LINK: https://github.com/JamieHoSzeYui/android_device_htc_e8-twrp
+  DT_PATH: device/htc/e8/
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
